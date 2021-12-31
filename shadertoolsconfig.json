@@ -1,0 +1,10 @@
+{
+  "hlsl.additionalIncludeDirectories": [
+    ".",
+    "C:\\Program Files\\Unity\\Hub\\Editor\\2021.2.7f1\\Editor\\Data\\CGIncludes",
+    "C:\\Users\\TatsuyaKosuda\\Documents\\UnityProjects\\HDRPCustomPostProcessingSample\\Library\\PackageCache\\com.unity.render-pipelines.core@12.1.2\\ShaderLibrary",
+    "C:\\Users\\TatsuyaKosuda\\Documents\\UnityProjects\\HDRPCustomPostProcessingSample\\Library\\PackageCache\\com.unity.render-pipelines.high-definition@12.1.2\\Runtime\\ShaderLibrary",
+    "C:\\Users\\TatsuyaKosuda\\Documents\\UnityProjects\\HDRPCustomPostProcessingSample\\Library\\PackageCache\\com.unity.render-pipelines.high-definition@12.1.2\\Runtime\\PostProcessing\\Shaders",
+    "C:\\Users\\TatsuyaKosuda\\Documents\\UnityProjects\\HDRPCustomPostProcessingSample\\Library\\PackageCache\\com.unity.render-pipelines.high-definition@12.1.2\\Runtime\\RenderPipeline\\RenderPass\\CustomPass"
+  ]
+}

@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7187305757525966165
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d104cff895aefb548ac6087f87953a19, type: 3}
+  m_Name: ColorDisplacement
+  m_EditorClassIdentifier: 
+  active: 0
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.27
+  frequency:
+    m_OverrideState: 1
+    m_Value: 0.639
+  shiftColor:
+    m_OverrideState: 1
+    m_Value: {x: 3, y: 1.5, z: 0}
+--- !u!114 &-6181194335071275446
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19d3565f20128c4881f55e5d7374df6, type: 3}
+  m_Name: ColorGhostGlitch
+  m_EditorClassIdentifier: 
+  active: 0
+  color1:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 1, a: 1}
+  color2:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  color3:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 0, b: 0, a: 1}
+  color4:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  step:
+    m_OverrideState: 1
+    m_Value: 1
+--- !u!114 &-5156536989541954281
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1bc75528359add41a9fe7a153c20ddb, type: 3}
+  m_Name: Feedback
+  m_EditorClassIdentifier: 
+  active: 0
+  zoom:
+    m_OverrideState: 1
+    m_Value: 0.759
+--- !u!114 &-669061687911813460
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 657ac8f406560e14c98cea9cf7ef6bb2, type: 3}
+  m_Name: Pixelate
+  m_EditorClassIdentifier: 
+  active: 0
+  pixelSize:
+    m_OverrideState: 1
+    m_Value: 16
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Custom Post Processing Profile
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 7257244618886506982}
+  - {fileID: -7187305757525966165}
+  - {fileID: -6181194335071275446}
+  - {fileID: -5156536989541954281}
+  - {fileID: 8056010761139693760}
+  - {fileID: 8971289848980993129}
+  - {fileID: -669061687911813460}
+  - {fileID: 5854923314419684621}
+  - {fileID: 9067996981145830836}
+--- !u!114 &5854923314419684621
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a66a89144a16a5468b28dd18a253a67, type: 3}
+  m_Name: Repeat
+  m_EditorClassIdentifier: 
+  active: 0
+  repeatTimesX:
+    m_OverrideState: 1
+    m_Value: 2
+  repeatTimesY:
+    m_OverrideState: 1
+    m_Value: 2
+--- !u!114 &7257244618886506982
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e28a95c5dd069d74bb45e78efdc20111, type: 3}
+  m_Name: BorderNoise
+  m_EditorClassIdentifier: 
+  active: 0
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.477
+  noiseScale:
+    m_OverrideState: 1
+    m_Value: 398
+  speed:
+    m_OverrideState: 1
+    m_Value: 4.63
+--- !u!114 &8056010761139693760
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8747ff5ca630cf348b63a9f76dff3f67, type: 3}
+  m_Name: Glitch
+  m_EditorClassIdentifier: 
+  active: 0
+  speed:
+    m_OverrideState: 1
+    m_Value: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: {x: 0.1, y: 0}
+--- !u!114 &8971289848980993129
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e29c3679e4a7794eb04af40192b7ad6, type: 3}
+  m_Name: GlitchFreezeFrame
+  m_EditorClassIdentifier: 
+  active: 0
+  strength:
+    m_OverrideState: 1
+    m_Value: 0.0512
+  angle:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &9067996981145830836
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 098657f633671a5459e1f29ceecd8555, type: 3}
+  m_Name: RetroGame
+  m_EditorClassIdentifier: 
+  active: 0
+  enable:
+    m_OverrideState: 1
+    m_Value: 1
+  pixelSize:
+    m_OverrideState: 1
+    m_Value: 2.6
+  brightnessThreshold:
+    m_OverrideState: 1
+    m_Value: 0.205
+  resolution:
+    m_OverrideState: 1
+    m_Value: 2
